@@ -1,4 +1,5 @@
 FROM jenkins
-
-RUN sudo apt-get update && \
-    sudo apt-get install build-essentials
+USER root
+RUN apt-get update && \
+    apt-get install build-essentials
+USER jenkins

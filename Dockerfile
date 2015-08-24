@@ -8,7 +8,7 @@ RUN apt-get update && \
                        libevent-dev \
                        libffi-dev \
                        libfreetype6-dev \
-                       libicu-dev
+                       libicu-dev \
                        libjpeg-dev \
                        libmagickwand-dev \
                        libmemcached-dev \

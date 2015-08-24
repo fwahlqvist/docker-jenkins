@@ -25,5 +25,5 @@ RUN apt-get update && \
                        python-pip \
                        sox \
                        wget \
-                       zlib1g-dev \
+                       zlib1g-dev
 USER jenkins

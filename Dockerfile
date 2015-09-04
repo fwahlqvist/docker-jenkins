@@ -23,6 +23,7 @@ RUN dpkg --add-architecture i386 && \
                        libxslt1-dev \
                        libyaml-dev \
                        nodejs \
+                       npm \
                        pngcrush \
                        python-dev \
                        python-meld3 \
@@ -30,5 +31,7 @@ RUN dpkg --add-architecture i386 && \
                        python-pip \
                        sox \
                        wget \
-                       zlib1g-dev
+                       zlib1g-dev && \
+    update-alternatives --install /usr/bin/node node /usr/bin/nodejs 10 && \
+    npm install -g npm@2.1.1
 USER jenkins

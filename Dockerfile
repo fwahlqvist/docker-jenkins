@@ -18,6 +18,7 @@ RUN dpkg --add-architecture i386 && \
                        libmagickwand-dev \
                        libmemcached-dev \
                        libmysqlclient-dev \
+                       libpq-dev \
                        libsox-fmt-mp3 \
                        libssl-dev \
                        libxslt1-dev \

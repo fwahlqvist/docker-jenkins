@@ -22,6 +22,7 @@ RUN dpkg --add-architecture i386 && \
                        libssl-dev \
                        libxslt1-dev \
                        libyaml-dev \
+                       maven \
                        nodejs \
                        npm \
                        pngcrush \

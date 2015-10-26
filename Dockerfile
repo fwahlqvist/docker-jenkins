@@ -8,6 +8,7 @@ RUN dpkg --add-architecture i386 && \
                        libncurses5:i386 \
                        build-essential \
                        git \
+                       gettext \
                        libav-tools \
                        libavcodec-extra \
                        libevent-dev \
@@ -18,6 +19,7 @@ RUN dpkg --add-architecture i386 && \
                        libmagickwand-dev \
                        libmemcached-dev \
                        libmysqlclient-dev \
+                       libpq-dev \
                        libsox-fmt-mp3 \
                        libssl-dev \
                        libxslt1-dev \

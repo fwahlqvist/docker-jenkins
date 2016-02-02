@@ -14,6 +14,7 @@ RUN dpkg --add-architecture i386 && \
                        libevent-dev \
                        libffi-dev \
                        libfreetype6-dev \
+                       libgrpc-dev \
                        libicu-dev \
                        libjpeg-dev \
                        libmagickwand-dev \
